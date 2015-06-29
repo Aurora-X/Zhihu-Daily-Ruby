@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  image: MyString
+  string: MyString
+  zhihu-id: 1
+  multipic: false
+  type: 1
+
+two:
+  title: MyString
+  image: MyString
+  string: MyString
+  zhihu-id: 1
+  multipic: false
+  type: 1

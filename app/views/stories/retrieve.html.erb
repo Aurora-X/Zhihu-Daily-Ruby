@@ -1,0 +1,8 @@
+<% @stories.each do |s| %>
+<ul>
+<li>
+	<%= link_to s["title"], "http://daily.zhihu.com/story/" + s["id"].to_s %>
+	<%= image_tag s["images"][0] %>
+</li>
+</ul>
+<% end %>
